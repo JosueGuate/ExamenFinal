@@ -1,19 +1,45 @@
 <html>
 	<head>
-		<title>Esta es mi primera pagina web</title>
+		<title>Loggin</title>
 
+   <script>
+   	function comprobarClave(){
+   		clave1= document.f1.clave1.value
+   		clave2= document.f1.clave2.value
 
-	<link rel="stylesheet"
-		  type="text/css"
-		  href="css.css"
-	      />
+   		if (clave1 == "josue" && clave2 == "guate") {
+alert("Cargando")
+var href = "pagina.html";
+window.location=href;
+   		}
+   		else{
+   			alert("Las dos claves no coincide..... Vuelve a intentarlo")
+   			var href ="index.html"
+   			window.location=href;
+   			};
 
-	<link rel="stylesheet"
-		  type="text/css"
-		  href="styles.css"
-	      />	
+   	}
+   </script>
+	
 	</head>
-	<body style="background-color: black">
-
+	<body style="background-color: green">
+<h1 style="color: white" align="center">Loggin</h1>
+<br>
+<h1 style="color: white" align="center">Ingresa los datos</h1>
+<br>
+<table align="center">
+<form action="" name="f1">
+	<td align="center" bgcolor="blue" style="border: solid;">
+	<h1 style="color: white">Usuario<input type="password" name="clave1" size="20"></h1>
+	<br>
+	<h1 style="color: white">Contraseña<input type="password" name="clave2" size="20"></h1>
+	<br>
+</td>
+<td align="center" style="border-color: red">
+	<br>
+<input type="button" value="Ingresar" onclick="comprobarClave()" style="font-size: 50px">
+</td>
+</form>
+</table>
 </body>
 </html>
