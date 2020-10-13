@@ -1593,14 +1593,25 @@ pre code {
   height: 43px;
 
 }
+.contenedor3 {
+   background-image: url("imagenes/dos.gif");
 
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  width: 1380px;
+  height: 43px;
+
+}
 .tamaño{
   font-size: 30px;
   
 }
 .acaja1 {
   float: left;
-  background-color:white;
+  background-image: url("imagenes/tres.gif");
+background-color: white;
   border: 10px solid;
   border-color: blue;
   width: 940px
@@ -1608,6 +1619,7 @@ pre code {
 
 }
 .acaja2 {
+  background-image: url("imagenes/tres.gif");
   float: right;
   background-color: white;
   border: 10px solid;
@@ -1615,6 +1627,15 @@ pre code {
   max-height: 2000px;
   min-height: 504px;
   width: 400px
+
+}
+.acaja3 {
+  float: left;
+background-image: url("imagenes/tres.gif");
+  border: 10px solid;
+  border-color: blue;
+  width: 940px
+  
 
 }
 
