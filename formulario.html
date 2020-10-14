@@ -7,35 +7,32 @@
 		  href="css.css"
 	      />
 	</head>
-	<body style="background-color: black">
+	<body style="background-color: orange">
 		<a 
-		href="pagina.html">
-			Principal
+		href="pagina.html"  class="acerca">
+			Inicio
 		</a>
 		 &nbsp;
 		<a 
-		href="acercademi.html">
-		Acercademi
+		href="acercademiempresa.html" class="acerca">
+	Acerca de la empresa
 		</a>
 		&nbsp;
 		<a 
-		href="contacto.html">
-			Contactame
-		</a>
-		  &nbsp;
-		<a 
-		href="libros.html" class="acerca">
-			Libros
-		</a>
-		&nbsp;
-		<a 
-		href="pasatiempos.html" class="acerca">
-			Pasatiempos
+		href="productos.html" class="acerca">
+		Productos y Servicios
 		</a>
         &nbsp;
 		<a 
+		href="contactame.html" class="acerca">
+		Contactame
+		</a>
+
+		
+		&nbsp;
+		<a 
 		href="formulario.html" class="acerca">
-			Registrarse
+		Formulario de Registro
 		</a>
 
 		<hr></hr>
@@ -49,10 +46,6 @@
 		<ul>
 			<form action="registro.php" method="POST">
 				 <h3 ><em>Registrarse</em></h3>
-			<label for="dpi">Dpi<span><em>(requerido)</em></span></label>
-			<input type="text" name="dpi" class="form-input" required/>
-			<br>
-			
 			<label for="nombre">Nombre<span><em>(requerido)</em></span></label>
 			<input type="text" name="nombre" class="form-input" required/>
 			<br>
@@ -60,11 +53,30 @@
 			<label for="apellido">Apellido<span><em>(requerido)</em></span></label>
 			<input type="text" name="apellido" class="form-input" required/>
 			<br>
-			
-			<label for="sueldo">Sueldo<span><em>(requerido)</em></span></label>
-			<input type="text" name="sueldo" class="form-input" required/>
+			<em>Cantidad Requerida de Productos</em>
 			<br>
-			<center> <input class="form-btn" type="submit" name="submit" value="Suscribirse"/></center>
+			<label for="case">Case<span><em>(requerido)</em></span></label>
+			<input type="tex" name="case" class="form-input" required/>
+			<br>
+			<label for="motherboards">Motherboards<span><em>(requerido)</em></span></label>
+			<input type="tex" name="motherboards" class="form-input" required/>
+			<br>
+			<label for="fuentep">Fuente de poder<span><em>(requerido)</em></span></label>
+			<input type="tex" name="fuentep" class="form-input" required/>
+			<br>
+			<label for="procesador">Procesador<span><em>(requerido)</em></span></label>
+			<input type="tex" name="procesador" class="form-input" required/>
+			<br>
+			<label for="unidadisco">Unidad de disco solido<span><em>(requerido)</em></span></label>
+			<input type="tex" name="unidadisco" class="form-input" required/>
+			<br>
+			<label for="tarjetadevideo">Tarjeta de Video<span><em>(requerido)</em></span></label>
+			<input type="tex" name="tarjetadevideo" class="form-input" required/>
+			<br>
+			<label for="presupuesto">Presupuesto<span><em>(requerido)</em></span></label>
+			<input type="text" name="presupuesto" class="form-input" required/>
+			<br>
+			<center> <input class="form-btn" type="submit" name="submit" value="Calcular"/></center>
 			</form>
 		</ul>
 
